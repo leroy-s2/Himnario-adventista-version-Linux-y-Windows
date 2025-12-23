@@ -86,6 +86,7 @@ jobs:
         Exec=$INSTALL_DIR/himnario-adventista.sh
         Icon=$INSTALL_DIR/himnario-adventista.png
         Categories=Audio;Music;Education;
+        StartupWMClass=himnario_adventista
         Terminal=false
         EOF
         
