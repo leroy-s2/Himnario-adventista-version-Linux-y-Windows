@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   just_audio: ^0.9.40
   just_audio_windows: ^0.2.2
+  just_audio_mpv: ^0.1.7  # Para audio en Linux
   audio_session: ^0.1.21
   path_provider: ^2.1.1
   sqflite_common_ffi: ^2.3.0
