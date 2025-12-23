@@ -28,61 +28,105 @@ jobs:
     - name: Get Flutter packages
       run: flutter pub get
 
-    - name: Analyze code
-      run: flutter analyze --no-fatal-infos --no-fatal-warnings || true
-
     - name: Build Linux app
       run: flutter build linux --release
 
-    - name: Create AppImage
+    - name: Create distribution package
       run: |
-        # Download appimagetool
-        wget -q https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
-        chmod +x appimagetool-x86_64.AppImage
+        # Create distribution folder
+        mkdir -p dist/HimnarioAdventista
         
-        # Create AppDir structure
-        mkdir -p AppDir/usr/bin
-        mkdir -p AppDir/usr/share/icons
+        # Copy the built app
+        cp -r build/linux/x64/release/bundle/* dist/HimnarioAdventista/
         
-        # Copy built app
-        cp -r build/linux/x64/release/bundle/* AppDir/usr/bin/
+        # Create empty audio directories for users to fill
+        mkdir -p dist/HimnarioAdventista/data/flutter_assets/assets/audio/cantado
+        mkdir -p dist/HimnarioAdventista/data/flutter_assets/assets/audio/instrumental
+        echo "Coloca aquí los archivos MP3 de himnos cantados (1.mp3 - 614.mp3)" > dist/HimnarioAdventista/data/flutter_assets/assets/audio/cantado/LEEME.txt
+        echo "Coloca aquí los archivos MP3 instrumentales (1.mp3 - 614.mp3)" > dist/HimnarioAdventista/data/flutter_assets/assets/audio/instrumental/LEEME.txt
         
-        # Create desktop file
-        cat > AppDir/himnario-adventista.desktop << EOF
+        # Copy icon
+        if [ -f "assets/images/icon.png" ]; then
+          cp assets/images/icon.png dist/HimnarioAdventista/himnario-adventista.png
+        fi
+        
+        # Create launcher script
+        cat > dist/HimnarioAdventista/himnario-adventista.sh << 'LAUNCHER'
+        #!/bin/bash
+        cd "$(dirname "$0")"
+        ./himnario_adventista
+        LAUNCHER
+        chmod +x dist/HimnarioAdventista/himnario-adventista.sh
+        
+        # Create install script
+        cat > dist/HimnarioAdventista/INSTALAR.sh << 'INSTALL'
+        #!/bin/bash
+        echo "=== Instalador Himnario Adventista ==="
+        
+        INSTALL_DIR="$HOME/.local/share/HimnarioAdventista"
+        DESKTOP_FILE="$HOME/.local/share/applications/himnario-adventista.desktop"
+        
+        # Create install directory
+        mkdir -p "$INSTALL_DIR"
+        
+        # Copy files
+        echo "Copiando archivos..."
+        cp -r ./* "$INSTALL_DIR/"
+        chmod +x "$INSTALL_DIR/himnario_adventista"
+        chmod +x "$INSTALL_DIR/himnario-adventista.sh"
+        
+        # Create desktop entry
+        echo "Creando acceso directo..."
+        mkdir -p "$HOME/.local/share/applications"
+        cat > "$DESKTOP_FILE" << EOF
         [Desktop Entry]
         Type=Application
         Name=Himnario Adventista
-        Comment=Himnario de la Iglesia Adventista
-        Exec=himnario_adventista
-        Icon=himnario-adventista
-        Categories=Audio;Music;
+        Comment=Himnario de la Iglesia Adventista del Séptimo Día
+        Exec=$INSTALL_DIR/himnario-adventista.sh
+        Icon=$INSTALL_DIR/himnario-adventista.png
+        Categories=Audio;Music;Education;
         Terminal=false
         EOF
         
-        # Create simple icon
-        if [ -f "assets/images/icon.png" ]; then
-          cp assets/images/icon.png AppDir/himnario-adventista.png
-        else
-          # Create placeholder icon
-          sudo apt-get install -y imagemagick
-          convert -size 256x256 xc:'#8B6914' -fill white -gravity center -pointsize 64 -annotate 0 'HA' AppDir/himnario-adventista.png
-        fi
+        echo ""
+        echo "=== Instalación completada ==="
+        echo "Ahora copia los archivos MP3 a:"
+        echo "  $INSTALL_DIR/data/flutter_assets/assets/audio/cantado/"
+        echo "  $INSTALL_DIR/data/flutter_assets/assets/audio/instrumental/"
+        echo ""
+        echo "La aplicación aparecerá en el menú de aplicaciones."
+        INSTALL
+        chmod +x dist/HimnarioAdventista/INSTALAR.sh
         
-        # Create AppRun
-        cat > AppDir/AppRun << 'APPRUN'
-        #!/bin/bash
-        HERE="$(dirname "$(readlink -f "$0")")"
-        export LD_LIBRARY_PATH="$HERE/usr/bin/lib:$LD_LIBRARY_PATH"
-        exec "$HERE/usr/bin/himnario_adventista" "$@"
-        APPRUN
-        chmod +x AppDir/AppRun
+        # Create README
+        cat > dist/HimnarioAdventista/LEEME.txt << 'README'
+        =======================================
+        HIMNARIO ADVENTISTA - Instalación Linux
+        =======================================
         
-        # Build AppImage
-        ./appimagetool-x86_64.AppImage --appimage-extract-and-run AppDir HimnarioAdventista-Linux-x86_64.AppImage
+        INSTALACIÓN RÁPIDA:
+        1. Abre una terminal en esta carpeta
+        2. Ejecuta: ./INSTALAR.sh
+        3. Copia tus archivos MP3 a las carpetas indicadas
+        4. Busca "Himnario Adventista" en el menú de aplicaciones
+        
+        EJECUCIÓN SIN INSTALAR:
+        1. Copia los MP3 a data/flutter_assets/assets/audio/cantado/ e instrumental/
+        2. Ejecuta: ./himnario-adventista.sh
+        
+        ARCHIVOS MP3:
+        Los archivos de audio no están incluidos por su gran tamaño.
+        Deben nombrarse: 1.mp3, 2.mp3, ... 614.mp3
+        README
+        
+        # Create ZIP
+        cd dist
+        zip -r ../HimnarioAdventista-Linux.zip HimnarioAdventista
 
-    - name: Upload AppImage
+    - name: Upload Linux package
       uses: actions/upload-artifact@v4
       with:
         name: HimnarioAdventista-Linux
-        path: HimnarioAdventista-Linux-x86_64.AppImage
+        path: HimnarioAdventista-Linux.zip
         retention-days: 30
