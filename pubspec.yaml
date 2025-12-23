@@ -1,0 +1,77 @@
+name: himnario_adventista
+description: "Himnario Adventista - Aplicación para Windows y Linux"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  just_audio: ^0.9.40
+  just_audio_windows: ^0.2.2
+  audio_session: ^0.1.21
+  path_provider: ^2.1.1
+  sqflite_common_ffi: ^2.3.0
+  shared_preferences: ^2.2.2
+  window_manager: ^0.4.3  # Para control de ventana en Windows/Linux
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/backgrounds/
+    - assets/data/
+    - assets/audio/cantado/
+    - assets/audio/instrumental/
+    - assets/backgrounds/adoracion/
+    - assets/backgrounds/bautismo/
+    - assets/backgrounds/cielo/
+    - assets/backgrounds/comunion/
+    - assets/backgrounds/cruz/
+    - assets/backgrounds/default/
+    - assets/backgrounds/espiritu/
+    - assets/backgrounds/evangelismo/
+    - assets/backgrounds/familia/
+    - assets/backgrounds/fe/
+    - assets/backgrounds/iglesia/
+    - assets/backgrounds/naturaleza/
+    - assets/backgrounds/navidad/
+    - assets/backgrounds/oracion/
+    - assets/backgrounds/resurreccion/
+    - assets/backgrounds/segunda_venida/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
