@@ -3,8 +3,6 @@ name: Build Windows Executable
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -15,25 +13,30 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Install Flutter
+    - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.27.1'
+        flutter-version: '3.24.0'
         channel: 'stable'
+        cache: true
 
-    - name: Get Flutter dependencies
+    - name: Get Flutter packages
       run: flutter pub get
 
-    - name: Build Windows Release
+    - name: Analyze code
+      run: flutter analyze --no-fatal-infos --no-fatal-warnings
+      continue-on-error: true
+
+    - name: Build Windows app
       run: flutter build windows --release
 
-    - name: Create ZIP package
+    - name: Create ZIP
       run: |
-        Compress-Archive -Path build\windows\x64\runner\Release\* -DestinationPath HimnarioAdventista-Windows.zip
+        Compress-Archive -Path build\windows\x64\runner\Release\* -DestinationPath HimnarioAdventista-Windows-x64.zip
 
-    - name: Upload Windows artifact
+    - name: Upload Windows build
       uses: actions/upload-artifact@v4
       with:
         name: HimnarioAdventista-Windows
-        path: HimnarioAdventista-Windows.zip
+        path: HimnarioAdventista-Windows-x64.zip
         retention-days: 30

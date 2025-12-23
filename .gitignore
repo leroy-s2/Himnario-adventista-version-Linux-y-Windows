@@ -45,6 +45,5 @@ app.*.map.json
 /android/app/release
 
 # Audio files (too large for GitHub - users should download separately)
-assets/audio/cantado/
-assets/audio/instrumental/
-*.mp3
+# Solo ignorar archivos MP3, pero mantener las carpetas
+assets/audio/**/*.mp3
