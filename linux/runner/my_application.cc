@@ -24,6 +24,20 @@ static void my_application_activate(GApplication* application) {
 
   // Ensure the taskbar icon matches the .desktop file name
   gtk_window_set_default_icon_name("himnario-adventista");
+  
+  // Fallback: Load icon from flutter_assets if theme icon not found
+  GError* error = NULL;
+  GdkPixbuf* icon = gdk_pixbuf_new_from_file("data/flutter_assets/assets/images/icon.png", &error);
+  if (icon != NULL) {
+    gtk_window_set_icon(window, icon);
+    gtk_window_set_default_icon(icon);
+    g_object_unref(icon);
+  } else {
+    if (error != NULL) {
+      g_warning("Could not load icon: %s", error->message);
+      g_error_free(error);
+    }
+  }
 
   // Use a header bar when running in GNOME as this is the common style used
   // by applications and is the setup most users will be using (e.g. Ubuntu

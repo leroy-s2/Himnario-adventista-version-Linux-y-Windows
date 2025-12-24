@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Himnario Adventista
+Comment=Himnario Adventista del Séptimo Día - 614 Himnos con Audio
+Exec=himnario_adventista
+Icon=himnario-adventista
+Terminal=false
+Categories=Audio;Music;Education;AudioVideo;
+Keywords=himnario;adventista;música;himno;cantos;religión;iglesia;
+StartupWMClass=himnario_adventista
+StartupNotify=true

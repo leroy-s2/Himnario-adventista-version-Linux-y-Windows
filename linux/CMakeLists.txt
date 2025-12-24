@@ -126,3 +126,18 @@ if(NOT CMAKE_BUILD_TYPE MATCHES "Debug")
   install(FILES "${AOT_LIBRARY}" DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
     COMPONENT Runtime)
 endif()
+
+# Install icon for Linux desktop integration
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/../assets/images/icon.png")
+  install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/../assets/images/icon.png"
+    DESTINATION "${INSTALL_BUNDLE_DATA_DIR}"
+    RENAME "himnario-adventista.png"
+    COMPONENT Runtime)
+endif()
+
+# Install .desktop file
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/himnario-adventista.desktop")
+  install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/himnario-adventista.desktop"
+    DESTINATION "${CMAKE_INSTALL_PREFIX}"
+    COMPONENT Runtime)
+endif()
