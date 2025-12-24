@@ -220,6 +220,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 right: 12,
                 child: _buildCloseButton(),
               ),
+              Positioned(
+                bottom: 16,
+                left: 16,
+                child: _buildDedication(),
+              ),
             ],
           ),
         ),
@@ -244,6 +249,26 @@ class _HomeScreenState extends State<HomeScreen> {
             fontWeight: FontWeight.w500,
           ),
         ),
+      ),
+    );
+  }
+
+  Widget _buildDedication() {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      decoration: BoxDecoration(
+        color: Colors.brown.shade800.withOpacity(0.85),
+        borderRadius: BorderRadius.circular(10),
+      ),
+      child: const Text(
+        'Iglesia Adventista del Séptimo Día\nPuerto San Francisco\nAño 2025',
+        style: TextStyle(
+          fontSize: 11,
+          color: Colors.white,
+          fontWeight: FontWeight.w500,
+          height: 1.4,
+        ),
+        textAlign: TextAlign.left,
       ),
     );
   }

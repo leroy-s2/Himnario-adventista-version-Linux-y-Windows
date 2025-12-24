@@ -72,6 +72,14 @@ class _PlayerScreenState extends State<PlayerScreen> {
       if (mounted) {
         _currentPosition = position;
         _updateSectionBasedOnPosition();
+        
+        // Fallback para Linux/mpv: detectar fin por posición
+        if (_audioDuration.inSeconds > 0 && 
+            position.inSeconds >= _audioDuration.inSeconds - 1 &&
+            !_isNavigatingHome) {
+          debugPrint('=== Audio completed (position fallback) ===');
+          _goHome();
+        }
       }
     });
     
@@ -109,56 +117,100 @@ class _PlayerScreenState extends State<PlayerScreen> {
     _sections = [];
     final estrofas = List<String>.from(widget.himno['estrofas'] ?? []);
     final coro = widget.himno['coro'] as String?;
+    final referencia = widget.himno['referenciaBiblica'] as String?;
     
+    // Agregar sección INTRO primero (solo título y referencia, sin letra)
+    _sections.add({
+      'type': 'intro',
+      'content': '',  // Sin letra durante el intro
+      'number': null,
+      'referencia': referencia,
+    });
+    
+    // Agregar estrofas SIN dividir en partes (cada estrofa completa es UNA sección)
     int estrofaNum = 1;
     for (int i = 0; i < estrofas.length; i++) {
-      List<String> parts = _splitLongText(estrofas[i]);
-      for (int p = 0; p < parts.length; p++) {
-        _sections.add({
-          'type': 'estrofa',
-          'content': parts[p],
-          'number': estrofaNum,
-          'part': parts.length > 1 ? '${p + 1}/${parts.length}' : null,
-        });
-      }
+      // NO usar _splitLongText - cada estrofa es UNA sección completa
+      _sections.add({
+        'type': 'estrofa',
+        'content': estrofas[i].replaceAll('\r\n', '\n').replaceAll('\r', '\n'),
+        'number': estrofaNum,
+        'part': null,
+      });
       estrofaNum++;
       
+      // Agregar coro después de cada estrofa si existe
       if (coro != null && coro.isNotEmpty) {
-        List<String> coroParts = _splitLongText(coro);
-        for (int p = 0; p < coroParts.length; p++) {
-          _sections.add({
-            'type': 'coro',
-            'content': coroParts[p],
-            'number': null,
-            'part': coroParts.length > 1 ? '${p + 1}/${coroParts.length}' : null,
-          });
-        }
+        _sections.add({
+          'type': 'coro',
+          'content': coro.replaceAll('\r\n', '\n').replaceAll('\r', '\n'),
+          'number': null,
+          'part': null,
+        });
       }
     }
     
+    // Caso especial: solo coro sin estrofas
     if (estrofas.isEmpty && coro != null && coro.isNotEmpty) {
-      List<String> parts = _splitLongText(coro);
-      for (int p = 0; p < parts.length; p++) {
-        _sections.add({
-          'type': 'coro',
-          'content': parts[p],
-          'number': null,
-          'part': parts.length > 1 ? '${p + 1}/${parts.length}' : null,
-        });
-      }
+      _sections.add({
+        'type': 'coro',
+        'content': coro.replaceAll('\r\n', '\n').replaceAll('\r', '\n'),
+        'number': null,
+        'part': null,
+      });
     }
   }
   
   void _updateSectionBasedOnPosition() {
     if (!_isAudioMode || _sections.isEmpty || _audioDuration == Duration.zero) return;
     
-    final totalSections = _sections.length;
-    final msPerSection = _audioDuration.inMilliseconds / totalSections;
-    final currentSection = (_currentPosition.inMilliseconds / msPerSection).floor();
-    final clampedSection = currentSection.clamp(0, totalSections - 1);
+    final stanzaTimestamps = widget.himno['stanza_timestamps'] as List?;
     
-    if (clampedSection != _currentSectionIndex) {
-      setState(() => _currentSectionIndex = clampedSection);
+    // Anticipación: mostrar letra 2 segundos antes del timestamp real
+    const double anticipationSeconds = 2.0;
+    
+    if (stanzaTimestamps != null && stanzaTimestamps.isNotEmpty) {
+      // Añadir anticipación para que la letra aparezca antes
+      final currentSeconds = _currentPosition.inSeconds.toDouble() + anticipationSeconds;
+      
+      // El primer timestamp es cuando empieza el canto (fin del intro)
+      final firstStanzaStart = (stanzaTimestamps[0]['start'] as num?)?.toDouble() ?? 0.0;
+      
+      // Si estamos antes del primer timestamp (menos anticipación), mostrar intro
+      if (currentSeconds < firstStanzaStart) {
+        if (_currentSectionIndex != 0) {
+          setState(() => _currentSectionIndex = 0);
+        }
+        return;
+      }
+      
+      // Después del intro, buscar qué sección de letra mostrar
+      int newSection = 1;
+      
+      for (int i = 0; i < stanzaTimestamps.length; i++) {
+        final timestamp = stanzaTimestamps[i];
+        final startTime = (timestamp['start'] as num?)?.toDouble() ?? 0.0;
+        
+        if (currentSeconds >= startTime) {
+          newSection = i + 1;  // +1 porque sección 0 es intro
+        }
+      }
+      
+      newSection = newSection.clamp(0, _sections.length - 1);
+      
+      if (newSection != _currentSectionIndex) {
+        setState(() => _currentSectionIndex = newSection);
+      }
+    } else {
+      // Fallback: dividir tiempo equitativamente
+      final totalSections = _sections.length;
+      final msPerSection = _audioDuration.inMilliseconds / totalSections;
+      final currentSection = (_currentPosition.inMilliseconds / msPerSection).floor();
+      final clampedSection = currentSection.clamp(0, totalSections - 1);
+      
+      if (clampedSection != _currentSectionIndex) {
+        setState(() => _currentSectionIndex = clampedSection);
+      }
     }
   }
   
@@ -366,23 +418,94 @@ class _PlayerScreenState extends State<PlayerScreen> {
     }
     
     final section = _sections[_currentSectionIndex];
+    final sectionType = section['type'] as String;
+    
+    // Vista especial para INTRO (solo mostrar referencia bíblica, sin letra)
+    if (sectionType == 'intro') {
+      final referencia = section['referencia'] as String?;
+      return Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // Mostrar referencia bíblica si existe
+            if (referencia != null && referencia.isNotEmpty)
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 48),
+                child: Text(
+                  referencia,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Colors.white.withOpacity(0.8),
+                    fontSize: 28,
+                    fontStyle: FontStyle.italic,
+                    fontWeight: FontWeight.w400,
+                    shadows: const [
+                      Shadow(offset: Offset(1, 1), blurRadius: 4, color: Colors.black87),
+                    ],
+                  ),
+                ),
+              ),
+            const SizedBox(height: 40),
+            // Indicador visual de que es el intro
+            Text(
+              '♪ Introducción ♪',
+              style: TextStyle(
+                color: Colors.white.withOpacity(0.5),
+                fontSize: 20,
+                letterSpacing: 2,
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+    
+    // Vista normal para ESTROFA/CORO (mostrar letra)
     final content = section['content'] as String;
     
+    // Calcular tamaño de fuente dinámico según longitud del contenido
+    // Más texto = fuente más pequeña, menos texto = fuente más grande
+    double fontSize;
+    double horizontalPadding;
+    
+    final contentLength = content.length;
+    final lineCount = content.split('\n').length;
+    
+    if (contentLength < 100 && lineCount <= 4) {
+      // Texto muy corto (como coros simples) - fuente grande
+      fontSize = 48;
+      horizontalPadding = 24;
+    } else if (contentLength < 200 && lineCount <= 6) {
+      // Texto medio - fuente mediana
+      fontSize = 40;
+      horizontalPadding = 28;
+    } else if (contentLength < 350 && lineCount <= 10) {
+      // Texto largo - fuente más pequeña
+      fontSize = 32;
+      horizontalPadding = 32;
+    } else {
+      // Texto muy largo - fuente pequeña
+      fontSize = 26;
+      horizontalPadding = 24;
+    }
+    
     return Center(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 48, vertical: 20),
-        child: Text(
-          content,
-          textAlign: TextAlign.center,
-          style: const TextStyle(
-            color: Colors.white,
-            fontSize: 44,
-            height: 1.5,
-            fontWeight: FontWeight.w600,
-            shadows: [
-              Shadow(offset: Offset(2, 2), blurRadius: 6, color: Colors.black87),
-              Shadow(offset: Offset(-1, -1), blurRadius: 3, color: Colors.black54),
-            ],
+      child: SingleChildScrollView(
+        child: Padding(
+          padding: EdgeInsets.symmetric(horizontal: horizontalPadding, vertical: 20),
+          child: Text(
+            content,
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: fontSize,
+              height: 1.35,
+              fontWeight: FontWeight.w600,
+              shadows: const [
+                Shadow(offset: Offset(2, 2), blurRadius: 6, color: Colors.black87),
+                Shadow(offset: Offset(-1, -1), blurRadius: 3, color: Colors.black54),
+              ],
+            ),
           ),
         ),
       ),
@@ -393,12 +516,15 @@ class _PlayerScreenState extends State<PlayerScreen> {
     if (_sections.isEmpty) return const SizedBox.shrink();
     
     final section = _sections[_currentSectionIndex];
-    final isEstrofa = section['type'] == 'estrofa';
+    final sectionType = section['type'] as String;
     final number = section['number'];
     final part = section['part'];
     
+    // Determinar texto del indicador según el tipo de sección
     String indicatorText;
-    if (isEstrofa) {
+    if (sectionType == 'intro') {
+      indicatorText = '♪';  // Símbolo musical durante intro
+    } else if (sectionType == 'estrofa') {
       indicatorText = part != null ? '$number ($part)' : '$number';
     } else {
       indicatorText = part != null ? 'coro ($part)' : 'coro';

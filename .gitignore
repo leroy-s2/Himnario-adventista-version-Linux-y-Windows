@@ -47,3 +47,6 @@ app.*.map.json
 # Audio files (too large for GitHub - users should download separately)
 # Solo ignorar archivos MP3, pero mantener las carpetas
 assets/audio/**/*.mp3
+
+# Scripts de desarrollo (no necesarios para la app)
+scripts/

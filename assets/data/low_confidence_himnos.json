@@ -1,0 +1,3502 @@
+[
+  {
+    "numero": 1,
+    "titulo": "Cantad Alegres al señor",
+    "intro_detectado": 26,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 2,
+    "titulo": "Dá gloria al Señor",
+    "intro_detectado": 16,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 4,
+    "titulo": "Alabanzas sin cesar",
+    "intro_detectado": 10.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 5,
+    "titulo": "A ti, glorioso Dios",
+    "intro_detectado": 10.7,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 9,
+    "titulo": "Alabemos al Señor",
+    "intro_detectado": 8.2,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 11,
+    "titulo": "Alma bendice al Señor",
+    "intro_detectado": 17.1,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 12,
+    "titulo": "Todos juntos reunidos",
+    "intro_detectado": 8.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 13,
+    "titulo": "Al Dios invisible",
+    "intro_detectado": 12.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 14,
+    "titulo": "Engrandecido sea Dios",
+    "intro_detectado": 12.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 16,
+    "titulo": "A nuestro padre Dios",
+    "intro_detectado": 10.0,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 17,
+    "titulo": "Oh padre eterno Dios",
+    "intro_detectado": 13.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 18,
+    "titulo": "Load al Padre",
+    "intro_detectado": 7.5,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 19,
+    "titulo": "Padre nuestro",
+    "intro_detectado": 14.7,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 20,
+    "titulo": "A Dios el padre",
+    "intro_detectado": 11.2,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 21,
+    "titulo": "Gloria sea al Padre",
+    "intro_detectado": 11.3,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 22,
+    "titulo": "Jehová está en su santo templo",
+    "intro_detectado": 17.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 23,
+    "titulo": "Silencio silencio",
+    "intro_detectado": 12.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 24,
+    "titulo": "Imploramos tu presencia",
+    "intro_detectado": 12.6,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 25,
+    "titulo": "Siento la presencia del Señor",
+    "intro_detectado": 11.5,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 28,
+    "titulo": "Tu pueblo jubiloso",
+    "intro_detectado": 24.3,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 29,
+    "titulo": "Del culto el tiempo llega",
+    "intro_detectado": 13.8,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 30,
+    "titulo": "Abre mis ojos",
+    "intro_detectado": 13.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 31,
+    "titulo": "¡Oh, señor! al orar",
+    "intro_detectado": 14.2,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 32,
+    "titulo": "Nos reunimos en tu santuario",
+    "intro_detectado": 11.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 33,
+    "titulo": "Tu precencia padre amante, inv",
+    "intro_detectado": 18.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 34,
+    "titulo": "En momentos así",
+    "intro_detectado": 14.1,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 35,
+    "titulo": "Oye, oh Señor",
+    "intro_detectado": 23.2,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 36,
+    "titulo": "¡Oh, Dios, que oyes cada oraci",
+    "intro_detectado": 16.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 37,
+    "titulo": "Dios os guarde",
+    "intro_detectado": 13.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 38,
+    "titulo": "Que Dios te guarde",
+    "intro_detectado": 18.0,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 39,
+    "titulo": "Despide hoy tu grey",
+    "intro_detectado": 8.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 41,
+    "titulo": "Gracia, amor y comunión",
+    "intro_detectado": 17.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 43,
+    "titulo": "Agua de vida",
+    "intro_detectado": 10.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 46,
+    "titulo": "Hoy amanece",
+    "intro_detectado": 17.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 48,
+    "titulo": "Oh Dios, si he ofendido un cor",
+    "intro_detectado": 13.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 49,
+    "titulo": "Cristo, ya la noche cierra",
+    "intro_detectado": 12.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 52,
+    "titulo": "Señor Jesús, el día ya se fue",
+    "intro_detectado": 10.8,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 53,
+    "titulo": "¡Oh amor de Dios!",
+    "intro_detectado": 25.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 54,
+    "titulo": "Tan bueno es Dios",
+    "intro_detectado": 9.2,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 55,
+    "titulo": "Grande, Señor, es tu misericor",
+    "intro_detectado": 15.4,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 56,
+    "titulo": "De tal manera amó",
+    "intro_detectado": 14.9,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 57,
+    "titulo": "Mi Dios me ama",
+    "intro_detectado": 10.6,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 58,
+    "titulo": "Grande es el amor divino",
+    "intro_detectado": 9.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 59,
+    "titulo": "Mirad qué amor",
+    "intro_detectado": 8.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 60,
+    "titulo": "¡Santo! ¡Santo! ¡Santo! Tu glo",
+    "intro_detectado": 18.7,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 61,
+    "titulo": "Santo, Santo, Santo, Dios Omni",
+    "intro_detectado": 11.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 63,
+    "titulo": "Al Rey adorad",
+    "intro_detectado": 7.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 64,
+    "titulo": "Yo canto el poder de Dios",
+    "intro_detectado": 12.8,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 65,
+    "titulo": "El mundo es de mi Dios",
+    "intro_detectado": 13.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 66,
+    "titulo": "¿Sabes cuántos?",
+    "intro_detectado": 10.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 67,
+    "titulo": "¡Señor, yo te conozco!",
+    "intro_detectado": 10.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 68,
+    "titulo": "Todo lo que ha creado Dios",
+    "intro_detectado": 25.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 69,
+    "titulo": "Señor, mi Dios",
+    "intro_detectado": 14.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 70,
+    "titulo": "¡Nuestro Dios reina!",
+    "intro_detectado": 17.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 71,
+    "titulo": "Cada cosa hermosa",
+    "intro_detectado": 19.9,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 72,
+    "titulo": "Fue un milagro",
+    "intro_detectado": 10.0,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 73,
+    "titulo": "La creación",
+    "intro_detectado": 9.1,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 74,
+    "titulo": "Himno al Creador",
+    "intro_detectado": 12.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 75,
+    "titulo": "Grande es Jehová",
+    "intro_detectado": 22.5,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 77,
+    "titulo": "Sea exaltado",
+    "intro_detectado": 8.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 78,
+    "titulo": "¡Al mundo paz!",
+    "intro_detectado": 11.8,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 79,
+    "titulo": "Se oye un canto en alta esfera",
+    "intro_detectado": 18.2,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 80,
+    "titulo": "Venid, pastorcillos",
+    "intro_detectado": 8.0,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 82,
+    "titulo": "Ya repican las campanas",
+    "intro_detectado": 7.8,
+    "confianza": 0.4,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 83,
+    "titulo": "La primera Navidad",
+    "intro_detectado": 17.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 84,
+    "titulo": "Ve, dilo en las montañas",
+    "intro_detectado": 9.8,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 86,
+    "titulo": "A medianoche en Belén",
+    "intro_detectado": 10.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 87,
+    "titulo": "Venid, fieles todos",
+    "intro_detectado": 20.0,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 88,
+    "titulo": "Oh, aldehuela de Belén",
+    "intro_detectado": 10.9,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 89,
+    "titulo": "Cristianos, alegraos hoy",
+    "intro_detectado": 16.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 90,
+    "titulo": "Somos del oriente",
+    "intro_detectado": 9.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 92,
+    "titulo": "Angeles cantando están",
+    "intro_detectado": 16.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 93,
+    "titulo": "Hubo Uno que quiso",
+    "intro_detectado": 11.5,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 94,
+    "titulo": "Sangró mi soberano Dios",
+    "intro_detectado": 17.5,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 95,
+    "titulo": "Un dia",
+    "intro_detectado": 15.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 97,
+    "titulo": "En el monte Calvario",
+    "intro_detectado": 14.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 98,
+    "titulo": "Rostro divino",
+    "intro_detectado": 7.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 99,
+    "titulo": "Jamás podrá alguien separarnos",
+    "intro_detectado": 14.9,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 101,
+    "titulo": "Cabeza sacrosanta",
+    "intro_detectado": 10.4,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 102,
+    "titulo": "Cordero de Dios",
+    "intro_detectado": 14.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 104,
+    "titulo": "La tumba le encerró",
+    "intro_detectado": 15.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 105,
+    "titulo": "Cristo ha resucitado",
+    "intro_detectado": 7.2,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 106,
+    "titulo": "Tuya es la gloria",
+    "intro_detectado": 20.1,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 107,
+    "titulo": "Canto el gran amor",
+    "intro_detectado": 12.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 108,
+    "titulo": "Amigo fiel es Cristo",
+    "intro_detectado": 18.7,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 109,
+    "titulo": "Un buen amigo tengo yo",
+    "intro_detectado": 17.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 110,
+    "titulo": "Cristo es el mejor amigo",
+    "intro_detectado": 14.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 111,
+    "titulo": "Como Jesús no hay otro amigo",
+    "intro_detectado": 25.3,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 113,
+    "titulo": "Amor que no me dejarás",
+    "intro_detectado": 10.2,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 117,
+    "titulo": "No sé por qué",
+    "intro_detectado": 22.8,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 119,
+    "titulo": "De su trono, mi Jesús",
+    "intro_detectado": 10.4,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 120,
+    "titulo": "¡Cuánto me alegra!",
+    "intro_detectado": 20.4,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 121,
+    "titulo": "Es Jesucristo la vida, la luz",
+    "intro_detectado": 18.0,
+    "confianza": 0.51,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 122,
+    "titulo": "Divino pastor",
+    "intro_detectado": 12.2,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 123,
+    "titulo": "¡Cuánto nos ama Jesús!",
+    "intro_detectado": 16.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 124,
+    "titulo": "Ama el Pastor sus ovejas",
+    "intro_detectado": 22.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 125,
+    "titulo": "Infinito amor de Cristo",
+    "intro_detectado": 9.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 126,
+    "titulo": "Abrigadas y salvas en el redil",
+    "intro_detectado": 12.4,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 127,
+    "titulo": "Cristo, nombre dulce",
+    "intro_detectado": 26.0,
+    "confianza": 0.5,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 130,
+    "titulo": "Cristo, Cristo, Cristo",
+    "intro_detectado": 16.0,
+    "confianza": 0.4,
+    "razon": "estimacion_duracion"
+  },
+  {
+    "numero": 132,
+    "titulo": "Dulce, hermoso nombre es Jesús",
+    "intro_detectado": 14.1,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 133,
+    "titulo": "Venid, con cánticos venid",
+    "intro_detectado": 10.0,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 134,
+    "titulo": "Cual mirra fragante",
+    "intro_detectado": 13.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 135,
+    "titulo": "Cristo, nombre sublime",
+    "intro_detectado": 17.2,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 136,
+    "titulo": "¡Oh, cuánto amo a Cristo!",
+    "intro_detectado": 9.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 137,
+    "titulo": "De Jesús el nombre invoca",
+    "intro_detectado": 23.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 138,
+    "titulo": "De mi amante Salvador",
+    "intro_detectado": 13.0,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 139,
+    "titulo": "La tierna voz del Salvador",
+    "intro_detectado": 14.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 140,
+    "titulo": "Te quiero, te quiero",
+    "intro_detectado": 10.8,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 141,
+    "titulo": "¡Alabadle!",
+    "intro_detectado": 17.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 142,
+    "titulo": "Venid, cantad de gozo en pleni",
+    "intro_detectado": 17.4,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 143,
+    "titulo": "Digno eres tú",
+    "intro_detectado": 15.8,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 144,
+    "titulo": "Mi Salvador",
+    "intro_detectado": 25.2,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 146,
+    "titulo": "Ni en la tierra",
+    "intro_detectado": 12.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 147,
+    "titulo": "A Dios sea gloria",
+    "intro_detectado": 17.9,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 148,
+    "titulo": "Solo Cristo",
+    "intro_detectado": 17.6,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 149,
+    "titulo": "Junto a la cruz do Jesús murió",
+    "intro_detectado": 18.8,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 150,
+    "titulo": "A Cristo doy mi canto",
+    "intro_detectado": 18.2,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 151,
+    "titulo": "Por eso lo amo",
+    "intro_detectado": 8.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 152,
+    "titulo": "A ti, Jesús",
+    "intro_detectado": 13.8,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 153,
+    "titulo": "Ved a Cristo",
+    "intro_detectado": 15.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 154,
+    "titulo": "Dad gloria al Cordero Rey",
+    "intro_detectado": 11.0,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 155,
+    "titulo": "En Sion Jesús hoy reina",
+    "intro_detectado": 18.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 157,
+    "titulo": "¡Majestad!",
+    "intro_detectado": 9.3,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 158,
+    "titulo": "Amanece ya la mañana de oro",
+    "intro_detectado": 11.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 159,
+    "titulo": "Yo espero la mañana",
+    "intro_detectado": 10.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 160,
+    "titulo": "Viene otra vez nuestro Salvado",
+    "intro_detectado": 18.4,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 161,
+    "titulo": "¡Oh! cuán gratas las nuevas",
+    "intro_detectado": 32.4,
+    "confianza": 0.4,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 162,
+    "titulo": "En presencia estar de Cristo",
+    "intro_detectado": 28.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 163,
+    "titulo": "Cristo viene, esto es cierto",
+    "intro_detectado": 9.0,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 165,
+    "titulo": "¡Vendrá el Señor!",
+    "intro_detectado": 24.0,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 166,
+    "titulo": "Siervos de Dios, la trompeta t",
+    "intro_detectado": 11.4,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 167,
+    "titulo": "¿Quién en deslumbrante gloria?",
+    "intro_detectado": 19.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 171,
+    "titulo": "¿Has oído el mensaje?",
+    "intro_detectado": 14.3,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 172,
+    "titulo": "Promesa dulce",
+    "intro_detectado": 20.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 173,
+    "titulo": "¿Será al albor?",
+    "intro_detectado": 15.6,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 174,
+    "titulo": "Mira los hitos",
+    "intro_detectado": 12.2,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 175,
+    "titulo": "Ved a Cristo, que se acerca",
+    "intro_detectado": 13.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 176,
+    "titulo": "Tú verás al Rey viniendo",
+    "intro_detectado": 14.5,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 177,
+    "titulo": "Los tres mensajes angélicos",
+    "intro_detectado": 7.7,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 178,
+    "titulo": "Contemplé la gloria",
+    "intro_detectado": 10.7,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 179,
+    "titulo": "¡Cristo viene! Aquel día se ac",
+    "intro_detectado": 16.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 180,
+    "titulo": "Sí, lo veremos",
+    "intro_detectado": 11.6,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 181,
+    "titulo": "Una esperanza",
+    "intro_detectado": 25.2,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 182,
+    "titulo": "Veremos a Cristo",
+    "intro_detectado": 11.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 183,
+    "titulo": "No me olvidé de ti",
+    "intro_detectado": 14.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 184,
+    "titulo": "Nunca te rindas",
+    "intro_detectado": 6.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 188,
+    "titulo": "Gran alegría",
+    "intro_detectado": 11.3,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 189,
+    "titulo": "Cristo muy pronto vendrá",
+    "intro_detectado": 9.9,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 190,
+    "titulo": "Santo Espíritu de Cristo",
+    "intro_detectado": 10.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 191,
+    "titulo": "La nueva proclamad",
+    "intro_detectado": 9.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 192,
+    "titulo": "Llena mi ser",
+    "intro_detectado": 13.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 193,
+    "titulo": "Dios nos ha dado promesa",
+    "intro_detectado": 14.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 194,
+    "titulo": "Vive en mí",
+    "intro_detectado": 12.0,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 196,
+    "titulo": "Santo Espíritu de Dios",
+    "intro_detectado": 8.2,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 198,
+    "titulo": "Ven, Señor Jesús",
+    "intro_detectado": 15.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 200,
+    "titulo": "Bautízanos hoy",
+    "intro_detectado": 14.6,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 201,
+    "titulo": "Canción del Espíritu",
+    "intro_detectado": 14.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 202,
+    "titulo": "Danos el fuego",
+    "intro_detectado": 23.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 203,
+    "titulo": "Santo Espíritu llena mi vida",
+    "intro_detectado": 14.3,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 204,
+    "titulo": "Oh, cantádmelas otra vez",
+    "intro_detectado": 23.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 206,
+    "titulo": "Padre, tu Palabra es mi delici",
+    "intro_detectado": 12.6,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 207,
+    "titulo": "Dios nos habla",
+    "intro_detectado": 6.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 210,
+    "titulo": "Huye cual ave",
+    "intro_detectado": 16.4,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 211,
+    "titulo": "Fija tus ojos en Cristo",
+    "intro_detectado": 25.2,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 212,
+    "titulo": "A tu puerta Cristo está",
+    "intro_detectado": 10.4,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 213,
+    "titulo": "Tierno y amante, Jesús nos inv",
+    "intro_detectado": 16.2,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 214,
+    "titulo": "Mientras Jesús te llama",
+    "intro_detectado": 12.8,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 216,
+    "titulo": "Dios al pródigo llama",
+    "intro_detectado": 13.5,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 217,
+    "titulo": "Bienvenida da Jesús",
+    "intro_detectado": 23.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 218,
+    "titulo": "A Jesucristo ven sin tardar",
+    "intro_detectado": 10.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 219,
+    "titulo": "Tan triste y tan lejos de Dios",
+    "intro_detectado": 16.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 220,
+    "titulo": "Allá la puerta abierta está",
+    "intro_detectado": 12.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 222,
+    "titulo": "Del trono celestial",
+    "intro_detectado": 25.0,
+    "confianza": 0.48,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 223,
+    "titulo": "Oí la voz del Salvador",
+    "intro_detectado": 12.5,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 225,
+    "titulo": "Un hombre llegose de noche a J",
+    "intro_detectado": 23.2,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 226,
+    "titulo": "Buscad primero",
+    "intro_detectado": 12.7,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 229,
+    "titulo": "¿Has pensado lo que puede cost",
+    "intro_detectado": 8.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 230,
+    "titulo": "Abre tu corazón",
+    "intro_detectado": 13.1,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 231,
+    "titulo": "Todo en el altar",
+    "intro_detectado": 23.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 232,
+    "titulo": "Entrégate en oración",
+    "intro_detectado": 14.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 233,
+    "titulo": "Ven a la Fuente de vida",
+    "intro_detectado": 20.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 235,
+    "titulo": "La razón de vivir",
+    "intro_detectado": 14.2,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 236,
+    "titulo": "A Jesús entrega todo",
+    "intro_detectado": 16.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 237,
+    "titulo": "Jesús hoy espera entrar en tu ",
+    "intro_detectado": 15.3,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 238,
+    "titulo": "Yo escucho, buen Jesús",
+    "intro_detectado": 17.0,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 241,
+    "titulo": "Perdón te ruego, mi Señor y Di",
+    "intro_detectado": 17.4,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 242,
+    "titulo": "Una es, Señor, mi petición",
+    "intro_detectado": 6.1,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 243,
+    "titulo": "Entrego todo a Cristo",
+    "intro_detectado": 20.8,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 244,
+    "titulo": "Padre, Dios",
+    "intro_detectado": 11.9,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 245,
+    "titulo": "Cúmplase, oh Cristo, tu volunt",
+    "intro_detectado": 13.8,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 246,
+    "titulo": "Te quiero, mi Señor",
+    "intro_detectado": 16.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 247,
+    "titulo": "Yo te seguiré",
+    "intro_detectado": 10.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 248,
+    "titulo": "Que mi vida entera esté",
+    "intro_detectado": 18.2,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 249,
+    "titulo": "Tal como soy",
+    "intro_detectado": 15.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 250,
+    "titulo": "Padre, a tus pies me postro",
+    "intro_detectado": 12.0,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 251,
+    "titulo": "No yo, sino Él",
+    "intro_detectado": 22.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 252,
+    "titulo": "Dejo el mundo",
+    "intro_detectado": 10.6,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 254,
+    "titulo": "Anhelo ser limpio",
+    "intro_detectado": 16.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 256,
+    "titulo": "Jesús, yo he prometido",
+    "intro_detectado": 13.3,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 257,
+    "titulo": "Oh! ven, te invito, Cristo",
+    "intro_detectado": 15.9,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 258,
+    "titulo": "Tú dejaste tu trono",
+    "intro_detectado": 13.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 259,
+    "titulo": "Mi espíritu, alma y cuerpo",
+    "intro_detectado": 18.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 260,
+    "titulo": "Junto a la cruz de Cristo",
+    "intro_detectado": 12.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 261,
+    "titulo": "Salvador, a ti me rindo",
+    "intro_detectado": 23.6,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 262,
+    "titulo": "Los tesoros del mundo",
+    "intro_detectado": 8.0,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 264,
+    "titulo": "Un día más por Cristo",
+    "intro_detectado": 18.1,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 266,
+    "titulo": "Vivo por Cristo",
+    "intro_detectado": 19.1,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 267,
+    "titulo": "A la cruz de Cristo voy",
+    "intro_detectado": 22.4,
+    "confianza": 0.41,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 268,
+    "titulo": "Puedo oír tu voz llamando",
+    "intro_detectado": 16.6,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 269,
+    "titulo": "Prefiero a mi Cristo",
+    "intro_detectado": 23.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 270,
+    "titulo": "Meditar en Jesús",
+    "intro_detectado": 13.4,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 271,
+    "titulo": "Hoy me llama el mundo en vano",
+    "intro_detectado": 11.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 273,
+    "titulo": "Tu vida, oh Salvador",
+    "intro_detectado": 14.2,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 274,
+    "titulo": "¿Qué te daré, Maestro?",
+    "intro_detectado": 28.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 275,
+    "titulo": "Humilde oración",
+    "intro_detectado": 15.7,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 276,
+    "titulo": "Con nuestras mentes",
+    "intro_detectado": 7.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 278,
+    "titulo": "¿Puede el mundo ver a Jesús en",
+    "intro_detectado": 11.8,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 279,
+    "titulo": "Transfórmame a tu imagen",
+    "intro_detectado": 13.4,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 280,
+    "titulo": "Ser semejante a Jesús",
+    "intro_detectado": 15.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 282,
+    "titulo": "¡Brilla, Jesús!",
+    "intro_detectado": 11.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 283,
+    "titulo": "Ven, Señor Jesús",
+    "intro_detectado": 13.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 284,
+    "titulo": "Me dice el Salvador",
+    "intro_detectado": 31.8,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 285,
+    "titulo": "Confío en Jesucristo",
+    "intro_detectado": 20.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 287,
+    "titulo": "Rey de mi vida",
+    "intro_detectado": 12.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 288,
+    "titulo": "Al contemplarte, mi Salvador",
+    "intro_detectado": 12.6,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 290,
+    "titulo": "Fuente de la vida eterna",
+    "intro_detectado": 11.9,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 291,
+    "titulo": "Perdido, fui a mi Jesús",
+    "intro_detectado": 10.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 293,
+    "titulo": "¿Quieres ser salvo de toda mal",
+    "intro_detectado": 20.8,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 294,
+    "titulo": "En Jesús por fe confío",
+    "intro_detectado": 10.0,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 296,
+    "titulo": "Comprado con sangre por Cristo",
+    "intro_detectado": 18.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 299,
+    "titulo": "Hay vida en mirar",
+    "intro_detectado": 11.4,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 300,
+    "titulo": "Lejos de mi Padre Dios",
+    "intro_detectado": 12.1,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 302,
+    "titulo": "Grato es contar la historia",
+    "intro_detectado": 27.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 303,
+    "titulo": "Sublime gracia",
+    "intro_detectado": 17.1,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 304,
+    "titulo": "Mi Redentor, el Rey de gloria",
+    "intro_detectado": 15.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 305,
+    "titulo": "Maravillosa su gracia es",
+    "intro_detectado": 13.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 306,
+    "titulo": "Llegó Jesús",
+    "intro_detectado": 13.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 307,
+    "titulo": "Roca de la eternidad",
+    "intro_detectado": 9.3,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 308,
+    "titulo": "Dios descendió",
+    "intro_detectado": 10.0,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 311,
+    "titulo": "Cuando junte Jesús las nacione",
+    "intro_detectado": 19.8,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 312,
+    "titulo": "Día grande viene",
+    "intro_detectado": 9.8,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 313,
+    "titulo": "La hora del Juicio",
+    "intro_detectado": 13.1,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 316,
+    "titulo": "Hay un mundo feliz más allá",
+    "intro_detectado": 13.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 318,
+    "titulo": "En la mansión de mi Señor",
+    "intro_detectado": 12.2,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 319,
+    "titulo": "Cuando mi lucha termine al fin",
+    "intro_detectado": 16.7,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 320,
+    "titulo": "Jamás se dice “adiós” allá",
+    "intro_detectado": 10.9,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 321,
+    "titulo": "Allá sobre montes",
+    "intro_detectado": 16.1,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 322,
+    "titulo": "Busquemos la patria",
+    "intro_detectado": 11.9,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 323,
+    "titulo": "He de conocerle entonces",
+    "intro_detectado": 14.2,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 324,
+    "titulo": "Pronto yo veré a Jesús",
+    "intro_detectado": 11.5,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 325,
+    "titulo": "No puede el mundo ser mi hogar",
+    "intro_detectado": 11.4,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 327,
+    "titulo": "Jerusalén, mi amado hogar",
+    "intro_detectado": 11.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 328,
+    "titulo": "¿Nos veremos junto al río?",
+    "intro_detectado": 25.8,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 330,
+    "titulo": "Hay un feliz Edén",
+    "intro_detectado": 20.1,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 331,
+    "titulo": "La mañana gloriosa",
+    "intro_detectado": 14.5,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 332,
+    "titulo": "En la tierra adonde iré",
+    "intro_detectado": 10.4,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 333,
+    "titulo": "Aunque en esta vida",
+    "intro_detectado": 7.7,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 335,
+    "titulo": "Mi hogar celestial",
+    "intro_detectado": 27.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 337,
+    "titulo": "Nunca más adiós",
+    "intro_detectado": 14.2,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 338,
+    "titulo": "Las riberas de dicha inmortal",
+    "intro_detectado": 20.1,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 339,
+    "titulo": "A veces oigo un himno",
+    "intro_detectado": 26.8,
+    "confianza": 0.41,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 340,
+    "titulo": "¡Oh, qué música divina!",
+    "intro_detectado": 10.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 341,
+    "titulo": "Más cerca del hogar",
+    "intro_detectado": 16.2,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 343,
+    "titulo": "Quiero llegar a ser parte del ",
+    "intro_detectado": 12.0,
+    "confianza": 0.41,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 344,
+    "titulo": "Entonad un himno",
+    "intro_detectado": 12.7,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 345,
+    "titulo": "Canta, y tus penas se irán",
+    "intro_detectado": 9.8,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 346,
+    "titulo": "¡Feliz el día!",
+    "intro_detectado": 10.8,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 348,
+    "titulo": "Dicha grande",
+    "intro_detectado": 11.3,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 349,
+    "titulo": "Gran gozo hay en mi alma hoy",
+    "intro_detectado": 10.2,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 351,
+    "titulo": "Yo tengo gozo",
+    "intro_detectado": 9.7,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 352,
+    "titulo": "Gozaos, Cristo es Rey",
+    "intro_detectado": 10.7,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 353,
+    "titulo": "Suenan melodías en mi ser",
+    "intro_detectado": 9.1,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 354,
+    "titulo": "Voy caminando",
+    "intro_detectado": 11.4,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 355,
+    "titulo": "Yo voy feliz",
+    "intro_detectado": 17.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 357,
+    "titulo": "Jesús, tú eres mi alegría",
+    "intro_detectado": 18.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 358,
+    "titulo": "En el seno de mi alma",
+    "intro_detectado": 13.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 359,
+    "titulo": "Regocijaos siempre",
+    "intro_detectado": 9.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 360,
+    "titulo": "En Jesucristo, mártir de paz",
+    "intro_detectado": 14.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 362,
+    "titulo": "Con sin igual amor",
+    "intro_detectado": 18.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 364,
+    "titulo": "Jesús da paz",
+    "intro_detectado": 12.8,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 365,
+    "titulo": "Elevemos al Señor",
+    "intro_detectado": 14.3,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 368,
+    "titulo": "Padre amado",
+    "intro_detectado": 17.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 369,
+    "titulo": "Gratitud y alabanza",
+    "intro_detectado": 11.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 370,
+    "titulo": "Por la excelsa majestad",
+    "intro_detectado": 11.2,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 371,
+    "titulo": "Jesús te ama",
+    "intro_detectado": 13.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 372,
+    "titulo": "¿Cómo agradecer?",
+    "intro_detectado": 11.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 373,
+    "titulo": "Mi Redentor es Cristo",
+    "intro_detectado": 16.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 374,
+    "titulo": "Dulce comunión",
+    "intro_detectado": 11.2,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 376,
+    "titulo": "Dulce oración",
+    "intro_detectado": 13.9,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 377,
+    "titulo": "A los pies de Jesucristo",
+    "intro_detectado": 14.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 378,
+    "titulo": "¡Oh, qué amigo nos es Cristo!",
+    "intro_detectado": 12.4,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 379,
+    "titulo": "Habla, Señor, a mi alma",
+    "intro_detectado": 17.9,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 380,
+    "titulo": "Ando con Cristo",
+    "intro_detectado": 25.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 381,
+    "titulo": "Alma bendice al Señor",
+    "intro_detectado": 13.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 382,
+    "titulo": "A solas al huerto yo voy",
+    "intro_detectado": 15.4,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 384,
+    "titulo": "El jardín de oración",
+    "intro_detectado": 23.1,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 385,
+    "titulo": "Hablando con Jesús",
+    "intro_detectado": 8.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 386,
+    "titulo": "Hay un lugar de paz",
+    "intro_detectado": 28.0,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 387,
+    "titulo": "Aparte del mundo",
+    "intro_detectado": 14.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 388,
+    "titulo": "Debo decir a Cristo",
+    "intro_detectado": 13.8,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 389,
+    "titulo": "Conversar con Jesucristo",
+    "intro_detectado": 13,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 390,
+    "titulo": "Soy yo, Señor",
+    "intro_detectado": 10.8,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 391,
+    "titulo": "¿Le importará a Jesús?",
+    "intro_detectado": 12.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 392,
+    "titulo": "Hay quien vela mis pisadas",
+    "intro_detectado": 10.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 393,
+    "titulo": "Mi fe contempla a ti",
+    "intro_detectado": 10.8,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 397,
+    "titulo": "Oh buen Señor, velada está",
+    "intro_detectado": 15.6,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 398,
+    "titulo": "Cuando sopla airada la tempest",
+    "intro_detectado": 11.6,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 399,
+    "titulo": "En estos tiempos",
+    "intro_detectado": 22.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 401,
+    "titulo": "Eterna Roca es mi Jesús",
+    "intro_detectado": 12.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 402,
+    "titulo": "¡Oh!, salvo en la Roca",
+    "intro_detectado": 16.5,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 403,
+    "titulo": "Cuando en la lucha",
+    "intro_detectado": 15.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 404,
+    "titulo": "A cualquiera parte",
+    "intro_detectado": 6.3,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 405,
+    "titulo": "Sé quién es Jesús",
+    "intro_detectado": 12.9,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 406,
+    "titulo": "Jesús es mi luz",
+    "intro_detectado": 12.0,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 407,
+    "titulo": "Muy cerca de mi Redentor",
+    "intro_detectado": 22.2,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 408,
+    "titulo": "Cristo me ayuda por él a vivir",
+    "intro_detectado": 20.4,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 409,
+    "titulo": "Si mi débil fe flaqueare",
+    "intro_detectado": 20.5,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 410,
+    "titulo": "Cuando te quiero",
+    "intro_detectado": 16.2,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 411,
+    "titulo": "Bajo sus alas",
+    "intro_detectado": 19.1,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 412,
+    "titulo": "Todas las promesas",
+    "intro_detectado": 9.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 413,
+    "titulo": "Si la carga es pesada",
+    "intro_detectado": 20.6,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 414,
+    "titulo": "¡Oh, buen Maestro, despierta!",
+    "intro_detectado": 19.1,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 415,
+    "titulo": "Salvo en los tiernos brazos",
+    "intro_detectado": 10.0,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 417,
+    "titulo": "Dame la fe de mi Jesús",
+    "intro_detectado": 17.3,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 418,
+    "titulo": "Padre, yo vengo a ti",
+    "intro_detectado": 5.1,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 419,
+    "titulo": "Por la justicia de Jesús",
+    "intro_detectado": 11.8,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 420,
+    "titulo": "Nunca desmayes",
+    "intro_detectado": 13.4,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 421,
+    "titulo": "Cariñoso Salvador",
+    "intro_detectado": 10.9,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 422,
+    "titulo": "Nada puede ya faltarme",
+    "intro_detectado": 12.0,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 423,
+    "titulo": "Pertenezco a mi Rey",
+    "intro_detectado": 16.3,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 424,
+    "titulo": "¿Cómo podré estar triste?",
+    "intro_detectado": 18.4,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 425,
+    "titulo": "Día en día",
+    "intro_detectado": 14.7,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 426,
+    "titulo": "Tengo paz",
+    "intro_detectado": 22.6,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 427,
+    "titulo": "Lleva todo tu pesar a Cristo",
+    "intro_detectado": 15.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 428,
+    "titulo": "Su oveja soy",
+    "intro_detectado": 12.8,
+    "confianza": 0.4,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 429,
+    "titulo": "Él puede",
+    "intro_detectado": 11.3,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 430,
+    "titulo": "Solo no estoy",
+    "intro_detectado": 13.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 431,
+    "titulo": "A él mis problema le doy",
+    "intro_detectado": 24.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 432,
+    "titulo": "Como el ciervo",
+    "intro_detectado": 26.0,
+    "confianza": 0.43,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 434,
+    "titulo": "Jesús es mi vida",
+    "intro_detectado": 22.9,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 435,
+    "titulo": "Dios sabe, Dios oye, Dios ve",
+    "intro_detectado": 18.2,
+    "confianza": 0.42,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 436,
+    "titulo": "Él vive hoy",
+    "intro_detectado": 12.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 437,
+    "titulo": "Tu presencia, Padre amado, da ",
+    "intro_detectado": 10.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 438,
+    "titulo": "Mira hacia Dios",
+    "intro_detectado": 14.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 439,
+    "titulo": "¡Oh!, quién pudiera andar con ",
+    "intro_detectado": 17.4,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 440,
+    "titulo": "Quiero, Jesús, contigo andar",
+    "intro_detectado": 16.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 441,
+    "titulo": "Jesús, te necesito",
+    "intro_detectado": 50.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 442,
+    "titulo": "¡Oh! ¡Maestro y Salvador!",
+    "intro_detectado": 20.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 443,
+    "titulo": "Hay un lugar do quiero estar, ",
+    "intro_detectado": 25.7,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 444,
+    "titulo": "No me pases",
+    "intro_detectado": 11.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 446,
+    "titulo": "Más cerca, oh Dios, de ti",
+    "intro_detectado": 12.9,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 447,
+    "titulo": "Más santidad dame",
+    "intro_detectado": 10.0,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 448,
+    "titulo": "Salvador, mi bien eterno",
+    "intro_detectado": 27.2,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 449,
+    "titulo": "Cristo, mi piloto sé",
+    "intro_detectado": 11.0,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 450,
+    "titulo": "¡Oh Jesús, Pastor divino!",
+    "intro_detectado": 40.3,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 451,
+    "titulo": "Cerca, más cerca",
+    "intro_detectado": 25.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 453,
+    "titulo": "Cómo ser cual Cristo",
+    "intro_detectado": 15.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 454,
+    "titulo": "Yo quisiera andar con Cristo",
+    "intro_detectado": 13.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 455,
+    "titulo": "Mi mano ten",
+    "intro_detectado": 18.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 456,
+    "titulo": "Como la mujer de junto al pozo",
+    "intro_detectado": 11.6,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 457,
+    "titulo": "More en mí la belleza del Salv",
+    "intro_detectado": 9.7,
+    "confianza": 0.4,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 458,
+    "titulo": "Orad por mí",
+    "intro_detectado": 15.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 459,
+    "titulo": "Háblame más de Cristo",
+    "intro_detectado": 10.1,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 460,
+    "titulo": "Quiero estar cerca de Cristo",
+    "intro_detectado": 18.7,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 461,
+    "titulo": "A tu lado anhelo estar",
+    "intro_detectado": 27.0,
+    "confianza": 0.41,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 462,
+    "titulo": "Dame a Cristo",
+    "intro_detectado": 31.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 463,
+    "titulo": "Mi oración",
+    "intro_detectado": 17.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 464,
+    "titulo": "Ven, inspíranos",
+    "intro_detectado": 16.8,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 465,
+    "titulo": "Ven junto a mí",
+    "intro_detectado": 24.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 466,
+    "titulo": "Guíame, ¡oh Salvador!",
+    "intro_detectado": 23.4,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 467,
+    "titulo": "¡Siempre el Salvador conmigo!",
+    "intro_detectado": 20.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 468,
+    "titulo": "Paso a paso Dios me guía",
+    "intro_detectado": 9.5,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 469,
+    "titulo": "Jesús me guía",
+    "intro_detectado": 29.2,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 471,
+    "titulo": "Condúceme, Maestro",
+    "intro_detectado": 14.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 472,
+    "titulo": "Jesús, mi guía es",
+    "intro_detectado": 23.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 473,
+    "titulo": "Háblame, y hablaré",
+    "intro_detectado": 10.8,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 474,
+    "titulo": "¿Qué me importan?",
+    "intro_detectado": 26.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 475,
+    "titulo": "El camino es escabroso",
+    "intro_detectado": 22.4,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 476,
+    "titulo": "¿Muy lejos el hogar está?",
+    "intro_detectado": 23.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 477,
+    "titulo": "Los que aman al Señor",
+    "intro_detectado": 11.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 478,
+    "titulo": "Sé fiel siempre, hermano",
+    "intro_detectado": 10.8,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 479,
+    "titulo": "De la mano, Señor",
+    "intro_detectado": 24.3,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 480,
+    "titulo": "Digno eres, oh Señor",
+    "intro_detectado": 13.6,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 481,
+    "titulo": "Voy al cielo",
+    "intro_detectado": 19.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 482,
+    "titulo": "Quiero cantar",
+    "intro_detectado": 16.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 484,
+    "titulo": "Busca al Señor",
+    "intro_detectado": 21.2,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 485,
+    "titulo": "Unidos en verdad",
+    "intro_detectado": 13.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 486,
+    "titulo": "En los pasos de Jesús",
+    "intro_detectado": 10.3,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 487,
+    "titulo": "Cristo, eres justo Rey",
+    "intro_detectado": 21.1,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 488,
+    "titulo": "Al andar con Jesús",
+    "intro_detectado": 15.5,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 489,
+    "titulo": "Solo anhelo, Cristo amado",
+    "intro_detectado": 11.7,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 490,
+    "titulo": "Mejor que los sacrificios",
+    "intro_detectado": 17.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 491,
+    "titulo": "Levántate, cristiano",
+    "intro_detectado": 26.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 492,
+    "titulo": "¡Trabajad! ¡Trabajad!",
+    "intro_detectado": 24.0,
+    "confianza": 0.4,
+    "razon": "estimacion_duracion"
+  },
+  {
+    "numero": 493,
+    "titulo": "Hoy quiero trabajar contigo",
+    "intro_detectado": 10.4,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 494,
+    "titulo": "Cerca un alma agobiada está",
+    "intro_detectado": 16.1,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 495,
+    "titulo": "Mi deber",
+    "intro_detectado": 30.7,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 496,
+    "titulo": "Sus manos somos",
+    "intro_detectado": 23.1,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 497,
+    "titulo": "Manos",
+    "intro_detectado": 23.2,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 498,
+    "titulo": "Puedes demostrar con tus manos",
+    "intro_detectado": 14.0,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 499,
+    "titulo": "Jesús anduvo por aquí",
+    "intro_detectado": 9.8,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 500,
+    "titulo": "Hazme tu siervo",
+    "intro_detectado": 9.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 501,
+    "titulo": "Mi vida al servicio de Dios",
+    "intro_detectado": 17.1,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 502,
+    "titulo": "Brilla en el sitio donde estés",
+    "intro_detectado": 10.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 504,
+    "titulo": "Señor de todos",
+    "intro_detectado": 13.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 505,
+    "titulo": "Hijo del reino",
+    "intro_detectado": 14.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 506,
+    "titulo": "¡De pie, de pie, cristianos!",
+    "intro_detectado": 20.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 507,
+    "titulo": "Tentado, no cedas",
+    "intro_detectado": 10.0,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 508,
+    "titulo": "Contendamos siempre por nuestr",
+    "intro_detectado": 32.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 509,
+    "titulo": "¡Firmes! ¡Fuertes!",
+    "intro_detectado": 11.4,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 510,
+    "titulo": "¿Quién está por Cristo?",
+    "intro_detectado": 18.0,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 512,
+    "titulo": "Nunca estéis desanimados",
+    "intro_detectado": 18.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 513,
+    "titulo": "Honra al hombre de valor",
+    "intro_detectado": 26.0,
+    "confianza": 0.4,
+    "razon": "estimacion_duracion"
+  },
+  {
+    "numero": 514,
+    "titulo": "¡Despertad, despertad, oh cris",
+    "intro_detectado": 10.4,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 515,
+    "titulo": "Despliegue el cristiano su san",
+    "intro_detectado": 10.4,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 516,
+    "titulo": "¡Firmes y adelante!",
+    "intro_detectado": 17.8,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 518,
+    "titulo": "Jesús está buscando voluntario",
+    "intro_detectado": 18.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 519,
+    "titulo": "Despierta, hermano, sin demora",
+    "intro_detectado": 14.8,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 520,
+    "titulo": "¡Adelante! manda el Señor",
+    "intro_detectado": 18.1,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 521,
+    "titulo": "Al Cristo ved",
+    "intro_detectado": 20.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 522,
+    "titulo": "Suenen las palabras",
+    "intro_detectado": 11.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 523,
+    "titulo": "Los sabios dan su ciencia",
+    "intro_detectado": 10.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 524,
+    "titulo": "Traían en silencio presentes a",
+    "intro_detectado": 18.7,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 525,
+    "titulo": "Con gratitud, llegamos",
+    "intro_detectado": 8.6,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 526,
+    "titulo": "Oh, mi patria, te prometo hoy",
+    "intro_detectado": 23.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 528,
+    "titulo": "Por montañas, muy cansado",
+    "intro_detectado": 28.0,
+    "confianza": 0.5,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 529,
+    "titulo": "Iglesia de Cristo",
+    "intro_detectado": 15.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 530,
+    "titulo": "Somos un pequeño pueblo muy fe",
+    "intro_detectado": 10.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 531,
+    "titulo": "La familia de Dios",
+    "intro_detectado": 11.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 532,
+    "titulo": "Sagrado es el amor",
+    "intro_detectado": 15.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 533,
+    "titulo": "Cuán bueno y agradable",
+    "intro_detectado": 11.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 534,
+    "titulo": "En tu nombre comenzamos",
+    "intro_detectado": 15.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 535,
+    "titulo": "Las faenas terminadas",
+    "intro_detectado": 10.3,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 536,
+    "titulo": "En sombras de la tarde",
+    "intro_detectado": 10.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 537,
+    "titulo": "Sábado santo",
+    "intro_detectado": 16.7,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 538,
+    "titulo": "Hoy es día de reposo",
+    "intro_detectado": 10.8,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 539,
+    "titulo": "¡Oh, día delicioso!",
+    "intro_detectado": 23.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 540,
+    "titulo": "Ya asoma el sol brillante",
+    "intro_detectado": 13.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 541,
+    "titulo": "Señor, reposamos",
+    "intro_detectado": 20.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 543,
+    "titulo": "No te olvides nunca del día de",
+    "intro_detectado": 9.4,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 544,
+    "titulo": "Hoy el sábado glorioso",
+    "intro_detectado": 10.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 545,
+    "titulo": "Santo día",
+    "intro_detectado": 10.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 546,
+    "titulo": "Santo sábado, bendito",
+    "intro_detectado": 13.1,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 547,
+    "titulo": "Sábado es",
+    "intro_detectado": 19.3,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 549,
+    "titulo": "Ya el fin se acerca",
+    "intro_detectado": 22.4,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 550,
+    "titulo": "Día santo del Señor",
+    "intro_detectado": 10.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 551,
+    "titulo": "Embajador soy de mi Rey",
+    "intro_detectado": 13.5,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 553,
+    "titulo": "¿Os pusisteis a arar?",
+    "intro_detectado": 14.0,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 554,
+    "titulo": "Con Cristo avanza hoy",
+    "intro_detectado": 20.7,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 555,
+    "titulo": "Hoy gozoso medito",
+    "intro_detectado": 10.8,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 556,
+    "titulo": "Yo quiero siempre brillar",
+    "intro_detectado": 11.1,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 557,
+    "titulo": "¿Qué estás haciendo por Cristo",
+    "intro_detectado": 8.2,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 558,
+    "titulo": "Ama a tus prójimos",
+    "intro_detectado": 12.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 559,
+    "titulo": "No te dé temor",
+    "intro_detectado": 22.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 561,
+    "titulo": "Oigo del Señor la voz llamando",
+    "intro_detectado": 13.0,
+    "confianza": 0.56,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 563,
+    "titulo": "Escuchad, Jesús nos dice",
+    "intro_detectado": 10.8,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 564,
+    "titulo": "Pronto la noche viene",
+    "intro_detectado": 13.8,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 565,
+    "titulo": "¡Ve, ve oh Sion!",
+    "intro_detectado": 45.4,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 566,
+    "titulo": "Centinelas del Maestro",
+    "intro_detectado": 42.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 567,
+    "titulo": "Si en valles de peligros",
+    "intro_detectado": 29.3,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 568,
+    "titulo": "Hay lugar en la amplia viña",
+    "intro_detectado": 20.4,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 569,
+    "titulo": "Id Y predicad el evangelio",
+    "intro_detectado": 12.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 570,
+    "titulo": "Voluntario del Señor",
+    "intro_detectado": 12.2,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 571,
+    "titulo": "La historia de Cristo contemos",
+    "intro_detectado": 10.3,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 572,
+    "titulo": "Pescadores de hombres",
+    "intro_detectado": 22.6,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 573,
+    "titulo": "Te envío a ti",
+    "intro_detectado": 14.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 574,
+    "titulo": "Testimonio",
+    "intro_detectado": 20.7,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 576,
+    "titulo": "Proclamo hoy que soy cristiano",
+    "intro_detectado": 10.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 578,
+    "titulo": "El pueblo que conoce a su Dios",
+    "intro_detectado": 22.1,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 579,
+    "titulo": "La fuente veo",
+    "intro_detectado": 21.5,
+    "confianza": 0.58,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 580,
+    "titulo": "Las aguas del bautismo",
+    "intro_detectado": 12.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 583,
+    "titulo": "La Cena de la Comunión",
+    "intro_detectado": 25.0,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 584,
+    "titulo": "Amémonos, hermanos",
+    "intro_detectado": 29.6,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 585,
+    "titulo": "Loamoste ¡Oh Dios!",
+    "intro_detectado": 29.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 586,
+    "titulo": "En memoria de mí",
+    "intro_detectado": 13.3,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 587,
+    "titulo": "Te dedicamos, oh Señor",
+    "intro_detectado": 13.4,
+    "confianza": 0.57,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 588,
+    "titulo": "Ven, alma que lloras",
+    "intro_detectado": 13.0,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 590,
+    "titulo": "Guía a ti, Señor",
+    "intro_detectado": 17.6,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 591,
+    "titulo": "Todo es bello en el hogar",
+    "intro_detectado": 10.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 592,
+    "titulo": "Si Dios está, ¡feliz hogar!",
+    "intro_detectado": 15.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 593,
+    "titulo": "Hogar de mis recuerdos",
+    "intro_detectado": 28.4,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 594,
+    "titulo": "Señor, gracias por mi hogar",
+    "intro_detectado": 16.8,
+    "confianza": 0.54,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 595,
+    "titulo": "Feliz hogar",
+    "intro_detectado": 26.1,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 596,
+    "titulo": "Edificamos familias",
+    "intro_detectado": 11.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 597,
+    "titulo": "Oración por un niño",
+    "intro_detectado": 22.8,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 598,
+    "titulo": "Cristo, yo te seguiré",
+    "intro_detectado": 15.3,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 599,
+    "titulo": "En este bello día",
+    "intro_detectado": 18.9,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 600,
+    "titulo": "Cuando venga Jesucristo",
+    "intro_detectado": 33.8,
+    "confianza": 0.42,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 602,
+    "titulo": "Es el amor divino",
+    "intro_detectado": 20.0,
+    "confianza": 0.55,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 604,
+    "titulo": "Bellas las manitas son",
+    "intro_detectado": 13.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 605,
+    "titulo": "Jesús tiene tiempo",
+    "intro_detectado": 8.0,
+    "confianza": 0.44,
+    "razon": "energia_detectada"
+  },
+  {
+    "numero": 606,
+    "titulo": "Llama Jesús, el Buen Pastor",
+    "intro_detectado": 11.0,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 607,
+    "titulo": "Nítido rayo por Cristo",
+    "intro_detectado": 15.2,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 608,
+    "titulo": "Corazones siempre alegres",
+    "intro_detectado": 19.1,
+    "confianza": 0.52,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 609,
+    "titulo": "¡Oh jóvenes, venid!",
+    "intro_detectado": 25.6,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 610,
+    "titulo": "Escuchamos tu llamada",
+    "intro_detectado": 19.0,
+    "confianza": 0.59,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 611,
+    "titulo": "Oh, juventud del Rey",
+    "intro_detectado": 22.6,
+    "confianza": 0.51,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 612,
+    "titulo": "Jesús te necesita hoy",
+    "intro_detectado": 10.0,
+    "confianza": 0.5,
+    "razon": "variabilidad_detectada"
+  },
+  {
+    "numero": 613,
+    "titulo": "Hoy nos toca trabajar",
+    "intro_detectado": 18.3,
+    "confianza": 0.53,
+    "razon": "variabilidad_detectada"
+  }
+]
